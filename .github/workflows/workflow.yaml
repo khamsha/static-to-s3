@@ -21,7 +21,7 @@ jobs:
           remove: true
 
       - name: Deploy
-        uses: nantgrisha/ya-object-storage-website@v1.0.1
+        uses: antgrisha/ya-object-storage-website@v1.0.1
         with:
           access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
