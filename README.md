@@ -5,9 +5,9 @@ A template to publish simple static sites to Yandex Cloud s3
 
 Add the following secrets to the repository:
 
-`access-key-id` The AWS key ID
-`secret-access-key` The AWS secret key
-`bucket` Bucket name
+`access-key-id` The AWS key ID\
+`secret-access-key` The AWS secret key\
+`bucket` Bucket name\
 
 ## Adding content
 Replace the content of `static` catalogue with your files 
