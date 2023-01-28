@@ -10,4 +10,4 @@ Add the following secrets to the repository:
 `bucket` Bucket name
 
 ## Adding content
-Replace the content of `build` catalogue with your files 
+Replace the content of `static` catalogue with your files 
