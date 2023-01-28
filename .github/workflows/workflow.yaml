@@ -14,9 +14,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy
-        uses: antgrisha/ya-object-storage-website@v1.0.1
+        uses: nekitcorp/yandex-storage-website-action@v2
         with:
           path: "static"
           access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           bucket: ${{ secrets.S3_BUCKET }}
+          clear: true
+          include: |
+              **/*
